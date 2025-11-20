@@ -112,7 +112,8 @@ const DetailBook = () => {
                 <Image
                   src={book.coverImage}
                   alt={book.title}
-                  fill
+                  width={222}
+                  height={328}
                   className='h-[328px] w-[222px] md:h-[500px] md:w-[337px]'
                 />
               </div>
