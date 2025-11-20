@@ -113,7 +113,7 @@ const DetailBook = () => {
                   src={book.coverImage}
                   alt={book.title}
                   fill
-                  className='w-[222px]md:h-[500px] h-[328px] md:w-[337px]'
+                  className='h-[328px] w-[222px] md:h-[500px] md:w-[337px]'
                 />
               </div>
             ) : (
