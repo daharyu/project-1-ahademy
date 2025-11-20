@@ -1,18 +1,13 @@
-import React, { use, useEffect, useState } from 'react';
+'use client';
+import { Button } from '@/components/ui/button';
+import { DialogClose } from '@/components/ui/dialog';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { Dialog, DialogContent, DialogTrigger } from '@radix-ui/react-dialog';
 import { motion } from 'motion/react';
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
 import { useRouter } from 'next/navigation';
-import { DialogClose, DialogHeader } from '@/components/ui/dialog';
-import {
-  Dialog,
-  DialogTrigger,
-  DialogContent,
-  DialogTitle,
-  DialogDescription,
-} from '@radix-ui/react-dialog';
-import { Label } from '@/components/ui/label';
-import { Input } from '@/components/ui/input';
+import { useEffect, useState } from 'react';
 
 type User = {
   id: number;
